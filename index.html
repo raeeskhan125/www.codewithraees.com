@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raees's Fitness Club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Luxurious+Script&display=swap"
+        rel="stylesheet">
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* css Reset */
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('img/bg.jpg');
+            background-repeat: no-repeat;
+            height: 4555px;
+            color: white;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+
+        .left {
+
+            display: inline-block;
+            
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 19px;
+            font-size: 26px;
+        }
+
+        .left img {
+
+            width: 61px;
+            filter: invert(100%);
+
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: 29px auto;
+           
+
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 33px;
+            display: inline-block;
+            
+        }
+
+        .nvabar {
+            display: inline-block;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 15px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;
+
+
+        }
+
+        .btn:hover {
+            background-color: rgb(29, 29, 29);
+        }
+
+        .container {
+            border: 2px solid green;
+            margin: 143px 85px;
+            padding: 33px 44px;
+            width: 30%;
+            border-radius: 24px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 339px;
+            padding: 14px;
+            border: 2px solid black;
+            margin: 13px auto;
+            font-size: 22px;
+            border-radius: 8px;
+        }
+
+        .container {
+            border: 2px solid white;
+        }
+
+        .container h1 {
+            text-align: center;
+            width: 451px;
+            margin: -14px;
+        }
+        .container button{
+            display: block;
+            width: 339px;
+            font-size: 20px;
+            margin: auto;
+
+        }
+        .container button:hover{
+            background-color: white;
+            cursor: pointer;
+            color: rgb(0, 118, 225);
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left Box for logo -->
+        <div class="left">
+            <img src="img/gym.jpg" alt="">
+            <div></div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#"> Fitness</a></li>
+                <li><a href="#">Contact us</a> </li>
+
+            </ul>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button><button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Join the best Gym of Lahore Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Location">
+            </div>
+
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
